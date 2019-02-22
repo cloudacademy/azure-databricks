@@ -21,7 +21,7 @@ CREATE TABLE computers
 ### Training a Machine Learning Model
 MNIST notebook: https://docs.azuredatabricks.net/spark/latest/mllib/decision-trees.html#decision-trees
 
-#### Print decision tree accuracy
+Print decision tree accuracy:
 ```
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 val evaluator = new MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setMetricName("weightedPrecision")
