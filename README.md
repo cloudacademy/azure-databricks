@@ -19,7 +19,7 @@ CREATE TABLE computers
 ```
 
 ### Training a Machine Learning Model
-MNIST notebook: https://docs.azuredatabricks.net/spark/latest/mllib/decision-trees.html#decision-trees
+MNIST notebook: https://docs.databricks.com/_static/notebooks/decision-trees.html
 
 Print decision tree accuracy:
 ```
