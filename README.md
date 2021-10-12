@@ -32,7 +32,7 @@ println(s"accuracy = ${evaluator.evaluate(prediction)}")
 ### Deploying a Trained Model
 The archive file containing sample AzureML notebooks that was previously at https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/azure-databricks/Databricks_AMLSDK_1-4_6.dbc is no longer available. You can now find the individual sample notebooks at https://github.com/cloudacademy/azure-databricks/tree/master/amlsdk.
 
-For an alternative way to deploy a trained model, see https://docs.microsoft.com/en-us/azure/databricks/applications/machine-learning/manage-model-lifecycle/#--use-model-for-inference.
+An alternative way to deploy a trained model is to use MLflow. See https://docs.microsoft.com/en-us/azure/databricks/applications/mlflow/end-to-end-example for an end-to-end example of creating and deploying a model using MLflow.
 
 ### Conclusion
 Azure Databricks documentation: https://docs.azuredatabricks.net/  
